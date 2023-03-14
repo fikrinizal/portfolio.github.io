@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #727775;
+}
+.conten {
+    height: 90vh;
+    width: 90%;
+    background-color: white;
+    border-radius: 30px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    border-radius: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+}
+.header p {
+    opacity: 0;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+.nav-link {
+    margin: 0 15px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-link-2 {
+    margin: 0 15px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-link-3 {
+    font-weight: bold;
+    margin: 0 15px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main-left {
+    padding-left: 100px;
+    height: 65vh;
+    width: 600px;
+    margin-right: 20px;
+}
+#hai {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+#name {
+    font-size: 76px;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main-left p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.light {
+    padding: 5px 15px;
+    border: solid 2px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    margin-right: 1px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.dark{
+    padding: 5px 15px;
+    background-color: #727775;
+    color: rgb(255, 255, 255);
+    border: solid 2px #727775;
+    margin-left: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.main-right {
+    display: flex;
+    align-items: center;
+    height: 65vh;
+    padding-right: 100px;
+    /* width: 50%; */
+    margin-left: 20px;
+}
+.main-right img {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+}
+#skill {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#front {
+    margin-bottom: 15px;
+}

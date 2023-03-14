@@ -1,0 +1,35 @@
+document.getElementById("light").onclick = function() {
+    document.getElementById("conten").style.backgroundColor = "rgb(255, 255, 255)";
+    document.getElementById("name").style.color = "black";
+    document.getElementById("hai").style.color = "black";
+    document.getElementById("home").style.backgroundColor = "#727775"
+    document.getElementById("light").style.border = "solid 2px black";
+    document.getElementById("dark").style.border = "solid 2px black";
+    document.getElementById("about").style.color = "black";
+    // document.querySelector(".nav-link").style.color = "black";
+    document.querySelector(".nav-link-2").style.color = "black";
+    document.querySelector(".nav-link-3").style.color = "black";
+    document.querySelector("#skill").style.color = "black";
+    document.querySelector("#title-front").style.color = "black";
+    document.querySelector("#front").style.color = "black";
+    document.querySelector("#other-title").style.color = "black";
+    document.querySelector("#other").style.color = "black";
+}
+document.querySelector(".dark").onclick = function() {
+    document.getElementById("conten").style.backgroundColor = "#727775";
+    document.getElementById("name").style.color = "white";
+    document.getElementById("hai").style.color = "white";
+    document.getElementById("about").style.color = "white";
+    document.getElementById("home").style.backgroundColor = "white";
+    document.getElementById("dark").style.border = "solid 2px black";
+    document.getElementById("light").style.backgroundColor = "white";
+    document.getElementById("light").style.border = "solid 2px black";
+    // document.querySelector(".nav-link").style.color = "white";
+    document.querySelector(".nav-link-2").style.color = "white";
+    document.querySelector(".nav-link-3").style.color = "white";
+    document.querySelector("#skill").style.color = "white";
+    document.querySelector("#title-front").style.color = "white";
+    document.querySelector("#front").style.color = "white";
+    document.querySelector("#other-title").style.color = "white";
+    document.querySelector("#other").style.color = "white";
+}
